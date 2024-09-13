@@ -105,11 +105,13 @@ body {
     background-color: #f5e9e2;
     padding: 40px 20px;
     text-align: center;
+    color: #000000;
 }
 
 .trending-section h1 {
     font-size: 2em;
     margin-bottom: 20px;
+    color: #000000;
 }
 
 .products {
@@ -137,11 +139,13 @@ body {
 .product h2 {
     font-size: 1.2em;
     margin: 10px 0;
+    color: #000000;
 }
 
 .product p {
     font-size: 1em;
     margin: 10px 0;
+    color: #000000;
 }
 
 .product .colors {
@@ -455,7 +459,7 @@ body {
 
 .special p {
     font-size: 14px;
-    color: #6c757d;
+    color: #000000;
 }
 
 .button {
@@ -485,13 +489,13 @@ body {
 .specials-section {
     text-align: center;
     background-color: #fdf9f4;
-    /* Light beige color similar to the background in your image */
+    color: #000000;
     padding: 50px 20px;
 }
 
 .section-title {
     font-size: 3rem;
-    /* Adjust based on the heading size you want */
+    color: #000000;
     font-family: 'Times New Roman', serif;
     margin-bottom: 40px;
 }
@@ -507,12 +511,12 @@ body {
     flex: 1;
     margin: 20px;
     max-width: 300px;
-    /* Adjust max-width for smaller screen handling */
+   
 }
 
 .icon-container img {
     width: 50px;
-    /* Adjust the icon size */
+   
     height: 50px;
     margin-bottom: 10px;
 }
@@ -521,17 +525,18 @@ body {
     font-size: 1.5rem;
     font-family: 'Arial', sans-serif;
     margin-bottom: 10px;
+    color: #000000;
 }
 
 .special-item p {
     font-size: 1rem;
-    color: #666;
-    /* Grey text color */
+    color: #000000;
+    
 }
 
 .cta-button button {
     background-color: #f08a24;
-    /* Button color similar to the one in your image */
+   
     color: white;
     border: none;
     padding: 15px 30px;
@@ -543,13 +548,12 @@ body {
 
 .cta-button button:hover {
     background-color: #e57b1e;
-    /* Darker shade for hover effect */
+
 }
 
 
 .testimonials-section {
     background-color: #f6e8db;
-    /* Light beige background */
     padding: 60px 20px;
     text-align: center;
 }
@@ -558,12 +562,14 @@ body {
     font-size: 2.5rem;
     margin-bottom: 40px;
     font-family: 'Times New Roman', serif;
+    color: #000000;
 }
 
 .testimonials {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    color: #000000;
 }
 
 .testimonial-card {
@@ -587,42 +593,44 @@ body {
 .testimonial-card p {
     font-size: 1rem;
     margin-bottom: 15px;
-    color: #666;
-    /* Light gray text */
+    color: #000000;
+    
 }
 
 .testimonial-card h4 {
     font-size: 1.2rem;
     margin-bottom: 10px;
+    color: #000000;
 }
 
 .star-rating {
     color: #ffa500;
-    /* Gold color for stars */
+   
     font-size: 1.5rem;
 }
 
 .inspiration-section {
     padding: 60px 20px;
     text-align: center;
-    background-color: #f6e8db; /* Light beige background */
+    background-color: #f6e8db; /
   }
   
   .section-title {
     font-size: 2.5rem;
     font-family: 'Times New Roman', serif;
     margin-bottom: 10px;
+    color: #000000;
   }
   
   .section-subtitle {
     font-size: 1rem;
-    color: #666;
+    color:black;
     margin-bottom: 40px;
   }
   
   .image-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 images per row */
+    grid-template-columns: repeat(4, 1fr); 
     grid-gap: 10px;
     justify-content: center;
   }
@@ -635,7 +643,7 @@ body {
   }
   
   .grid-item img:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
+    transform: scale(1.05); 
   }
   
   .see-more-btn {
@@ -655,26 +663,26 @@ body {
     background-color: #e65d00;
   }
   
-  /* Responsive Design */
+ 
   @media (max-width: 1024px) {
     .image-grid {
-      grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+      grid-template-columns: repeat(3, 1fr); 
     }
   }
   
   @media (max-width: 768px) {
     .image-grid {
-      grid-template-columns: repeat(2, 1fr); /* 2 images per row */
+      grid-template-columns: repeat(2, 1fr); 
     }
   }
   
   @media (max-width: 480px) {
     .image-grid {
-      grid-template-columns: 1fr; /* 1 image per row on small devices */
+      grid-template-columns: 1fr; 
     }
   }
 
- /* General styling */
+ 
 body {
     font-family: 'Poppins', sans-serif;
     color: white;
